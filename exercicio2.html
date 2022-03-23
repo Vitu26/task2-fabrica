@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="exercicio.css">
+</head>
+
+<body>  
+
+    <div>
+        <h1 id="titulo">Formulário Fábrica de Software</h1>
+        <br>
+        <p class="subtitulo">Formulário para a fábrica de Software - Unipe.</p>
+        <p class="subtitulo">Preencha com seus dados completos para que possa ser avaliado.</p>
+        <p class="subtitulo">Prazo: até o dia 23/03/2022!</p>
+        <br>
+    </div>
+
+    <form>
+
+        <fieldset class="grupo1">
+            <div class="campo">
+                <label for="nome"><strong>Nome</strong></label>
+                <input type="text" name="nome" id="nome" required>
+            </div>
+
+            <div class="campo">
+                <label for="sobrenome"><strong>Sobrenome</strong></label>
+                <input type="text" name="sobrenome" id="sobrenome" required>
+            </div>
+        </fieldset> 
+
+        <fieldset class="grupo2">
+            <div class="campo">
+            <label for="email"><strong>Email</strong></label>
+            <input type="email" name="email" id="email" required>
+            </div>
+
+            <div class="campo">
+            <label for="numero"><strong>Contato</strong></label>
+            <input type="tel" name="contato" id="contato" required>
+
+            </div>
+        </fieldset>    
+    
+        <div class="campo">
+            <label><strong>Qual área você quer entrar?</strong></label>
+            <label>
+                <input type="radio" name="area" value="frontend" checked>Front-end
+            </label>
+            <label>
+                <input type="radio" name="area" value="backend">Back-end
+            </label>
+            <label>
+                <input type="radio" name="area" value="DevOps">DevOps
+            </label>
+            <label>
+                <input type="radio" name="area" value="Mobile">Mobile
+            </label>
+            <label> 
+                <input type="radio" name="area" value="Games">Games
+            </label>
+        </div>
+
+      
+        <div class="campo">
+            <label for="experiencia"><strong>Possui alguma experiencia?</strong></label>
+            <select id="experiencia" required>
+              <option selected disabled value="">Selecione</option>
+              <option>Sim</option>
+              <option>Não</option>
+              
+            </select>
+        </div>
+
+       
+
+      
+        <div class="campo">
+            <br>
+            <label for="experiencia"><strong>Conte um pouco mais sobre você </strong></label>
+            <textarea rows="6" style="width: 26em" id="experiencia" name="experiencia"></textarea>
+        </div>
+
+      
+        <button class="botao" type="submit" onsubmit="">Concluído</button>            
+
+    </form>
+    <footer class="rodape">
+        <p id="paragrafo-rodape">Para mais duvidas <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&t=3s" target="_blank">clique aqui!</a></p>
+    </footer>
+    
+</body>
+
+
+</html>
+</html>

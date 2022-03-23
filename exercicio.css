@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+#titulo {
+    font-family: sans-serif;
+    color: rgb(21, 29, 134);
+    text-align: left;
+} 
+
+
+.subtitulo {
+    font-family: sans-serif;
+    color: rgb(41, 35, 117);
+    text-align: left;
+} 
+
+#check{
+    display: inline-block;
+}
+
+fieldset {
+    border: 0;
+}
+
+
+body{
+    background-color: blue;
+    background-image: url(../fabrica_de_software_html/imagem/estrela.png) ;
+    background-repeat: no-repeat;
+    height: 900px;
+    background-position: center;
+    background-size: cover;
+    border-top: solid 1px transparent;
+    font-family: sans-serif;
+    font-size: 1em;
+    color: rgb(35, 28, 128);
+    margin-left: 36%;
+    margin-top: 2%;
+    justify-content: center;
+}
+
+
+input, select, textarea, button {
+    font-family: sans-serif;
+    font-size: 1em;
+    color: ;
+    border-radius: 5px;
+}
+
+.campo {
+    margin-bottom: 1px;
+}
+
+
+.campo label {
+    margin-bottom: 0.2em;
+    color: rgb(35, 30, 102);
+    display: block;
+}
+
+fieldset.grupo .campo {
+    float:  left;
+    margin-right: 1em;
+}
+
+.botao {
+   font-size: 30px;
+   background-color: #1613bd;
+   border: 0;
+   margin-bottom: 1px;
+   color: black;
+   padding: 1px 6px;
+   box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+   text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+   position: absolute;
+   
+   
+   
+}
+
+.botao:hover {
+    background: #CCBBFF;
+    box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: none;
+}
+
+.botao, select{
+    cursor: pointer;
+}
+.rodape {
+    font-size: large;
+    margin-top: 90px;
+
+}
+#paragrafo-rodape {
+    color: black;
+    text-align: right;
+    margin-right: 35px;
+}
